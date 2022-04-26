@@ -1,0 +1,12 @@
+< script > 
+    janela . RufflePlayer  =  janela . RufflePlayer  ||  { } ;
+
+    janela . addEventListener ( "DOMContentLoaded" ,  ( )  =>  { 
+        let  ruffle  =  window . RufflePlayer . newest ( ) ; 
+        let  player  =  ruffle . createPlayer ( ) ; 
+        let  container  =  document . getElementById ( "container" ) ; 
+        container . appendChild ( player ) ; 
+        jogador . carregar( "filme.swf" ) ; 
+    } ) ; 
+</ script > 
+< script  src =" caminho/para/ruffle/ruffle.js " > </ script >
